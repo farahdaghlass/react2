@@ -1,0 +1,19 @@
+import { useState } from "react";
+
+function About(){
+
+ let[ count,setCount] = useState(0);
+const changeCount =()=>{
+
+    setCount(count+1);
+    setCount(count+1);
+    console.log(count);
+}
+return(
+<>
+<button onClick={changeCount}> (FARAH DAGHLASS) {count}   </button>
+</>
+);
+
+}
+export default About;
